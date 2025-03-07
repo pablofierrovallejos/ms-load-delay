@@ -17,3 +17,10 @@ cat Dockerfile
 ########################################
 Jenkins Pipeline Deloy
 ########################################
+
+
+
+########################################
+SONAR
+########################################
+./mvnw clean verify sonar:sonar   -Dsonar.projectKey=pablo   -Dsonar.projectName='pablo'   -Dsonar.host.url=http://localhost:9000   -Dsonar.token=sqp_6fb57f4d6f92d5c3c02d649ea1272a5a39e52bf5
